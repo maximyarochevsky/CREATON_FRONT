@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+    <head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+	<title>creat-on</title>
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/body.css">
+	<link rel="stylesheet" href="css/tabs.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    </head>
+    <body>
+        <div id="wrapper">
+              <header>
+                    <img class = "logo" src="images/creaton-logo.png" height="47">
+
+                    <nav>
+                      <ul>
+                        <li><a class = "button-text" href="#">УСЛУГИ</a></li>
+                        <li><a class = "button-text" href="#">НАШИ ПРОЕКТЫ</a></li>
+                        <li><a class = "button-text" href="#">КОНТАКТЫ</a></li>
+                      </ul>
+                    </nav>
+                    
+                    <div class="image-container">
+                      <img src="images/phone.png" alt="First Image" height="17">
+                      <img src="images/email.png" alt="Second Image" height="17">
+                    </div>
+
+                    <p class = "number button-text">+7 900 755 75 75  info@kreaton-plus.ru</p>
+              </header>
+                  
+              <main>
+
+                <div class="video-container">
+                  <video src="videos/фон.mp4" autoplay muted loop></video>
+                  <div class="overlay"></div>
+
+                  <div class="bg-container">
+
+                    <div class="text-overlay">
+                      <img class="ideas" src="images/ideas-create.png" height="95">
+                    </div>
+
+                    <div class="btn-container">
+                      <button class="transparent-btn button-text">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+
+                    <div class="tabs">
+                      <div class="tab" onclick="openTab(1)">
+                        <img  src="images/rek.png" height="80">
+                        <p class = "button-text pp">РЕКЛАМНЫЕ<br>ВЫВЕСКИ</p>
+                      </div>
+          
+                      <div class="tab" onclick="openTab(2)">
+                        <img src="images/navigation.png" height="80">
+                        <p class = "button-text pp">НАВИГАЦИОННЫЕ<br>НОСИТЕЛИ</p>
+                      </div>
+          
+                      <div class="tab" onclick="openTab(3)">
+                        <img src="images/light.png" height="80">
+                        <p class = "button-text pp">СВЕТОВЫЕ<br>ПАНЕЛИ</p>
+                      </div>
+                      
+                      <div class="tab" onclick="openTab(4)">
+                        <img src="images/print.png" height="80">
+                        <p class = "button-text pp">ШИРОКОФОРМАТНАЯ<br>ПЕЧАТЬ</p>
+                      </div>
+          
+                      <div class="tab" onclick="openTab(5)">
+                        <img src="images/pen.png" height="80">
+                        <p class = "button-text pp">СУВЕНИРНАЯ<br>ПРОДУКЦИЯ</p>
+                      </div>
+                      
+                      <div class="tab" onclick="openTab(6)">
+                        <img src="images/design.png" height="80">
+                        <p class = "button-text pp">ДИЗАЙН</p>
+                      </div>
+                    
+
+                    <div class="tab-content">
+
+                      <div id="tab1" class="tab-pane">
+                        <div>
+                          <img  class = "image-inside" src="images/ReklamViveski/1.png" height="250">
+                          <img  class = "image-inside" src="images/ReklamViveski/2.png" height="250">
+                          <img  class = "image-inside" src="images/ReklamViveski/3.png" height="250">
+                        </div>
+                        <div class="bot">
+                          <img  class = "image-inside" src="images/ReklamViveski/4.png" height="274">
+                          <img  class = "image-inside" src="images/ReklamViveski/5.png" height="274">
+                          <img  class = "image-inside" src="images/ReklamViveski/6.png" height="274">
+                        </div>
+                      </div>
+
+                      <div id="tab2" class="tab-pane tab-two">
+                        <div class="rig">
+                          <img  class = "image-inside" src="images/Navigation/1.png" height="367">
+                          <img  class = "image-inside twoimg" src="images/Navigation/2.png" height="157">
+                        </div>
+                        <div class="rig-1">
+                          <img  class = "image-inside" src="images/Navigation/3.png" height="310">
+                          <img  class = "image-inside twoimg" src="images/Navigation/4.png" height="212">
+                        </div>
+                        <div class="rig-2">
+                          <img  class = "image-inside" src="images/Navigation/5.png" height="350">
+                          <img  class = "image-inside twoimg" src="images/Navigation/6.png" height="172">
+                        </div> 
+                      </div>
+
+
+                      <div id="tab3" class="tab-pane">
+                         <div>
+                          <img  class = "image-inside" src="images/ReklamViveski/1.png" height="250">
+                          <img  class = "image-inside" src="images/ReklamViveski/2.png" height="250">
+                          <img  class = "image-inside" src="images/ReklamViveski/3.png" height="250">
+                        </div>
+                        <div class="bot">
+                          <img  class = "image-inside" src="images/ReklamViveski/4.png" height="274">
+                          <img  class = "image-inside" src="images/ReklamViveski/5.png" height="274">
+                          <img  class = "image-inside" src="images/ReklamViveski/6.png" height="274">
+                        </div>
+                      </div>
+                      <div id="tab4" class="tab-pane">
+                        <!-- Контент для четвертой вкладки -->
+                      </div>
+                      <div id="tab5" class="tab-pane">
+                        <!-- Контент для пятой вкладки -->
+                      </div>
+                      <div id="tab6" class="tab-pane">
+                        <!-- Контент для шестой вкладки -->
+                      </div>
+                    </div>
+                  
+                    </div>
+                  </div>
+
+                </div>
+                
+              </main>
+
+        </div>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>

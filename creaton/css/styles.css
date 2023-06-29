@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'UniSans'; 
+	src: url(../fonts/UniSans.ttf); 
+}
+
+  .button-text {
+      font-family: 'UniSans'; 
+    }
+
+  .tabs {
+    position:absolute;
+    top: 750px;
+    left: 380px;
+  }
+
+  .services_img{
+    margin-right: 2px;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }

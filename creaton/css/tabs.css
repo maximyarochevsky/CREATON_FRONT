@@ -1,0 +1,82 @@
+  .tabs {
+    display: flex;
+    position:static;
+    margin-top: 730px;
+    margin-left: 380px;
+  }
+
+  .button-text { font-family: 'UniSans'; }
+
+  .tab-content{
+    position:absolute;
+    margin-top: 250px;
+  }
+  .tab-pane{
+    display: none;
+  }
+  .image-inside{
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+
+  .bot{ margin-top: 5px;}
+
+  .rig{
+    position: absolute;
+    display: grid;
+  }
+
+  .rig-1{
+    position: absolute;
+    display: grid;
+    margin-left: 317px;
+  }
+
+  .rig-2{
+    position: absolute;
+    display: grid;
+    margin-left: 825px;
+  }
+
+  .tab-two{
+  }
+  .twoimg{
+    margin-top: 10px;
+  }
+  
+  .services_img{
+    margin-right: 2px;
+  }
+
+  .tab {
+    position: relative;
+    padding: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #00ffff;
+    font-size: 17px;
+    margin-right: 80px;
+    text-align: center;
+  }
+
+  .tab::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #00ffff;
+    transition: width 0.2s ease-in-out;
+  }
+
+  .tab:hover::before,.tab.active::before {
+    width: 100%;
+  }
+  .pp{
+    text-align: center;
+  }
+
+  .tab-content {
+
+  }
